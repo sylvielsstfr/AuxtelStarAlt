@@ -5,31 +5,52 @@
 - update : December 21th 2024
 
 Series of tools to prepare Auxtel observations.
-The novelties is building the list of target from the getCalspec tool
+Access to sky tracks and spectra to help for target selection
+
+- CALSPEC and GAIA
+
 
 ## Dependencies
 
 
 ### Date and time
 
-pip install datetime
-pip install timezonefinder
+    pip install datetime
+    pip install timezonefinder
 
 - note calendar is included in python distribution
 
 
 ### IPYALADIN
 
-pip install ipyaladin
-pip install sidecar
-pip install regions
-pip install MOC
+    pip install ipyaladin
+    pip install sidecar
+    pip install regions
+    pip install MOC
+
+Note that ipyaladin requires widgets. It is recommended to install
+ipyaladin according instructions given here:
+
+- https://github.com/cds-astro/ipyaladin?tab=readme-ov-file#installation
+
+      git clone https://github.com/cds-astro/ipyaladin.git
+      cd ipyaladin
+      npm install
+      npm run dev
+
+(unnecessary installation of widgets 
+conda install -c conda-forge ipywidgets)
+
+### getCalspec
+
+### getGaia
+
 
 ### NOIRLAB data access 
-pip install --ignore-installed --no-cache-dir astro-datalab
+    pip install --ignore-installed --no-cache-dir astro-datalab
 
 ## Must use notebook:
-- **01_ObservationOfVisibleCalspecList.ipynb** 
+- **01a_ObservationOfVisibleCalspecList.ipynb** 
 
 ## Backup notebook:
 - **BuildVisibleCalspecList.ipynb**
