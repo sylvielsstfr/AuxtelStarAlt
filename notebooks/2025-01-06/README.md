@@ -41,6 +41,8 @@ ipyaladin according instructions given here:
 (unnecessary installation of widgets 
 conda install -c conda-forge ipywidgets)
 
+https://ipywidgets.readthedocs.io/en/7.x/user_install.html
+
 ### getCalspec
 
 ### getGaia
