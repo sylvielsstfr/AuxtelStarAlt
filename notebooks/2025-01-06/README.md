@@ -52,7 +52,9 @@ https://ipywidgets.readthedocs.io/en/7.x/user_install.html
     pip install --ignore-installed --no-cache-dir astro-datalab
 
 ## Must use notebook:
-- **01a_ObservationOfVisibleCalspecList.ipynb** 
+- **01a_ObservationOfVisibleCalspecList.ipynb**
+- **01b_ObservationOfVisibleCalspecList.ipynb**  : save as above but reorganised
+- **01c_ObservationOfVisibleGaiawdList.ipynb**  : save as above but reorganised
 
 ## Backup notebook:
 - **BuildVisibleCalspecList.ipynb**
